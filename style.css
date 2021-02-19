@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+}
+
+.externo {
+    width: 100vw;
+    height: 100vh;
+    /* definindo altura e largura da viewport, pra isso temos que usar essas unidades de medida esquisita pra porra */
+    background: #6c7a89;
+    display: flex;
+    /* definindo o display pra flex, isso é importante por conta do comando abaixo! */
+    flex-direction: row;
+    /* o comando acima faz com que os itens fiquem alinhados horizontalmente em lina 'row' */
+    justify-content: center;
+    /* também serve para alinhar os item no centro, segue o comando de cima */
+    align-items: center;
+}
+
+.interno {
+    width: 980px;
+    height: auto;
+    background: #fff;
+
+    border-radius: 20px;
+    text-align: left;
+
+    font-family: 'Bebas Neue', cursive;
+
+
+    margin: 15px; padding: 15px;
+
+    
+}

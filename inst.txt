@@ -1,0 +1,5 @@
+como vou fazer essa porra
+
+vou colocar um form em cada div e depois usar js para pegar os valores de todos os forms e colocar dentro de um último form
+e este sim irá enviar os dados para o arquivo php
+
